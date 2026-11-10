@@ -9,6 +9,16 @@ Client review demo prepared by Design Ally Ltd.
 
 Both files are static and self-contained: no build step and no dependencies. Fonts load from Google Fonts, and Damian's photo is embedded in `damian.html`. The enquiry and callback flows run in the browser only and send nothing.
 
+## Before you deploy: 2 required changes
+
+- [ ] **Hide the test link from search engines.** In `index.html` and `damian.html`, add this line just after the opening `<head>` tag:
+  `<meta name="robots" content="noindex, nofollow">`
+  Or password-protect the test folder. The pages contain draft content marked "[to be approved]", which must not appear in Google results for the client's name.
+- [ ] **Link the firm page to Damian's page.** In `index.html`, in the footer "Contact" column, the link "Damian McCarthy, Senior Advocate ↗" points to `#top`. Change it to `damian.html`:
+  `<a href="damian.html">Damian McCarthy, Senior Advocate ↗</a>`
+
+Do not change anything else in the pages without checking with Ahmed first.
+
 ## Deploying to the test link
 
 1. Upload `index.html` and `damian.html` to the same folder on the test server.
