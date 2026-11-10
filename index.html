@@ -1,0 +1,771 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Nationwide Employment Lawyers</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Employment Tribunal representation for employees: whistleblowing, discrimination, harassment and dismissal claims for professionals. London and nationwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;1,400&family=Hanken+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: cinematic dark hero with live "brief ribbon" canvas + tilting case-file card; light ivory body; one dark showcase band; rose ribbon accent throughout. Single committed look. */
+:root{
+  color-scheme:light;
+  --night:#0B0D12; --night-2:#141821; --night-3:#1E2330; --ivory:#F3F1EC; --ivory-2:#E8E5DD;
+  --ink:#12141A; --ink-2:#565B66; --line:#D9D5CB; --line-d:#2A3040; --mist:#9AA0AD;
+  --rose:#C24A62; --rose-2:#E27D91; --gold:#C9A869;
+  --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --serif:"Libre Caslon Text",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --ease:cubic-bezier(.2,.7,.1,1);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--ivory);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:100;background:var(--night)}
+a{color:inherit}
+h1,h2,h3,p{margin:0}
+h1,h2,h3{text-wrap:balance;font-weight:500}
+em.s{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.01em}
+.wrap{max-width:1280px;margin:0 auto;padding-left:max(28px,env(safe-area-inset-left,0px));padding-right:max(28px,env(safe-area-inset-right,0px))}
+.eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase}
+.eyebrow::before{content:"";width:28px;height:1px;background:currentColor;opacity:.6}
+:focus-visible{outline:2px solid var(--rose);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--rose);color:#fff;padding:8px 12px;z-index:200}
+.skip:focus{left:16px}
+
+/* ---------- preview ribbon ---------- */
+.pv{background:var(--rose);color:#fff;font-size:12.5px;position:relative;z-index:61}
+.pv .wrap{display:flex;justify-content:space-between;gap:16px;align-items:center;padding-block:7px}
+.pv button{background:none;border:0;color:#fff;font:inherit;cursor:pointer;opacity:.85}
+
+/* ---------- nav ---------- */
+.nav{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);z-index:60;transition:background .4s,backdrop-filter .4s,border-color .4s,transform .4s;border-bottom:1px solid transparent}
+.nav.with-pv{top:calc(env(safe-area-inset-top,0px) + 32px)}
+.nav.solid{background:rgba(11,13,18,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:rgba(255,255,255,.07);top:env(safe-area-inset-top,0px)}
+.nav.light{background:rgba(243,241,236,.86);border-bottom-color:var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:20px}
+.nav.solid .wrap{padding-block:14px}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--ivory)}
+.nav.light .brand,.nav.light .links a,.nav.light .tel{color:var(--ink)}
+.mark{width:38px;height:38px;border:1px solid currentColor;display:grid;place-items:center;font-family:var(--serif);font-size:15px;position:relative;flex:none}
+.mark::after{content:"";position:absolute;left:-1px;top:-1px;bottom:-1px;width:3px;background:var(--rose)}
+.brand b{display:block;font-weight:600;font-size:15px;letter-spacing:.01em;line-height:1.15}
+.brand small{display:block;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;opacity:.6;margin-top:3px}
+.links{display:flex;align-items:center;gap:30px;font-size:14.5px;color:var(--ivory)}
+.links a{text-decoration:none;position:relative;padding:4px 0}
+.links a::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:1px;background:var(--rose);transform:scaleX(0);transform-origin:right;transition:transform .4s var(--ease)}
+.links a:hover::after{transform:scaleX(1);transform-origin:left}
+.tel{font-family:var(--mono);font-size:13px;color:var(--ivory);opacity:.85;white-space:nowrap}
+.burger{display:none;width:44px;height:44px;border:1px solid rgba(255,255,255,.25);background:none;color:var(--ivory);cursor:pointer;position:relative}
+.nav.light .burger{color:var(--ink);border-color:var(--line)}
+.burger span{position:absolute;left:12px;right:12px;height:1.5px;background:currentColor;transition:.3s}
+.burger span:first-child{top:17px}.burger span:last-child{top:25px}
+
+.btn{--bg:var(--rose);--fg:#fff;position:relative;display:inline-flex;align-items:center;gap:12px;padding:15px 24px;font:600 15px var(--sans);letter-spacing:.01em;color:var(--fg);background:var(--bg);border:0;cursor:pointer;text-decoration:none;overflow:hidden;isolation:isolate;transition:transform .35s var(--ease)}
+.btn::before{content:"";position:absolute;inset:0;background:var(--ink);transform:translateY(101%);transition:transform .5s var(--ease);z-index:-1}
+.btn:hover::before{transform:none}
+.btn .ar{display:inline-block;transition:transform .4s var(--ease)}
+.btn:hover .ar{transform:translateX(4px)}
+.btn.ghost{--bg:transparent;--fg:var(--ivory);box-shadow:inset 0 0 0 1px rgba(255,255,255,.35)}
+.btn.ghost::before{background:var(--ivory)}
+.btn.ghost:hover{color:var(--ink)}
+.btn.sm{padding:11px 18px;font-size:14px}
+.on-light .btn.ghost{--fg:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.on-light .btn.ghost::before{background:var(--ink)}
+.on-light .btn.ghost:hover{color:var(--ivory)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;background:var(--night);color:var(--ivory);min-height:max(720px,94svh);display:flex;align-items:stretch;overflow:hidden;isolation:isolate}
+#ribbons{position:absolute;inset:0;width:100%;height:100%;z-index:-2}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:
+ radial-gradient(60% 70% at 78% 40%,rgba(194,74,98,.16),transparent 70%),
+ radial-gradient(50% 60% at 10% 90%,rgba(201,168,105,.08),transparent 70%),
+ linear-gradient(180deg,rgba(11,13,18,0) 60%,var(--night) 100%)}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;opacity:.11;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.hero .wrap{width:100%;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:28px;align-items:center;padding-block:170px 120px}
+.hero-copy{grid-column:1/span 7;min-width:0}
+.hero .eyebrow{color:var(--rose-2)}
+.hero h1{font-size:clamp(46px,6.6vw,104px);line-height:.98;letter-spacing:-.035em;margin-top:28px;font-weight:500}
+.hero h1 .ln{display:block;overflow:hidden;padding-bottom:.06em}
+.hero h1 .ln > span{display:inline-block;animation:rise 1.1s var(--ease) both}
+.hero h1 .ln:nth-child(2) > span{animation-delay:.12s}
+.hero h1 .ln:nth-child(3) > span{animation-delay:.24s}
+.hero h1 em.s{color:var(--rose-2)}
+@keyframes rise{from{transform:translateY(105%)}to{transform:none}}
+@keyframes fadeup{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.rot{margin-top:30px;font-size:clamp(18px,1.6vw,22px);color:#C6C9D1;max-width:34em;animation:fadeup 1s .5s var(--ease) both}
+.rot .word{position:relative;display:inline-block;color:var(--ivory);font-weight:600;min-width:9ch}
+.rot .word span{position:absolute;left:0;top:0;white-space:nowrap;opacity:0;transform:translateY(60%);transition:opacity .5s,transform .6s var(--ease)}
+.rot .word span.on{opacity:1;transform:none}
+.rot .word span.out{opacity:0;transform:translateY(-60%)}
+.rot .word i{visibility:hidden;font-style:normal}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:44px;animation:fadeup 1s .7s var(--ease) both}
+.hero-meta{display:flex;flex-wrap:wrap;gap:12px 34px;margin-top:56px;padding-top:26px;border-top:1px solid rgba(255,255,255,.1);font-size:13.5px;color:var(--mist);animation:fadeup 1s .9s var(--ease) both}
+.hero-meta b{color:var(--ivory);font-weight:600;display:block;font-size:15px}
+
+/* case file card */
+.file-wrap{grid-column:9/span 4;perspective:1200px;animation:fadeup 1.2s .4s var(--ease) both;min-width:0}
+.file{position:relative;background:linear-gradient(160deg,#1A1F2B,#10131A);border:1px solid rgba(255,255,255,.09);padding:30px 28px 26px;transform-style:preserve-3d;transition:transform .2s ease-out;box-shadow:0 40px 80px -30px rgba(0,0,0,.7)}
+.file::before{content:"";position:absolute;left:-1px;top:-1px;bottom:-1px;width:4px;background:var(--rose)}
+.file .tab{position:absolute;top:-30px;right:24px;background:#1A1F2B;border:1px solid rgba(255,255,255,.09);border-bottom:0;padding:6px 14px;font-family:var(--mono);font-size:11px;color:var(--mist)}
+.file h4{margin:0;font-family:var(--mono);font-weight:500;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--rose-2)}
+.file .title{font-family:var(--serif);font-size:25px;line-height:1.2;margin-top:12px;color:var(--ivory)}
+.file dl{margin:22px 0 0;display:grid;gap:0}
+.file dl div{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:12px 0;border-top:1px solid rgba(255,255,255,.08);font-size:14px}
+.file dt{color:var(--mist);font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;padding-top:2px}
+.file dd{margin:0;color:var(--ivory)}
+.file .stamp{position:absolute;right:22px;bottom:-22px;width:86px;height:86px;border-radius:50%;border:1px solid var(--gold);color:var(--gold);display:grid;place-items:center;text-align:center;font-family:var(--mono);font-size:9px;letter-spacing:.14em;line-height:1.5;transform:rotate(-12deg) translateZ(40px);background:rgba(11,13,18,.7);animation:spin 40s linear infinite}
+@keyframes spin{to{transform:rotate(348deg) translateZ(40px)}}
+.file .sector{display:flex;gap:8px;margin-top:20px;flex-wrap:wrap}
+.chip{font-size:12px;padding:5px 10px;border:1px solid rgba(255,255,255,.14);color:#C6C9D1;transition:.4s}
+.chip.on{border-color:var(--rose);color:#fff;background:rgba(194,74,98,.18)}
+
+.scroll-cue{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:10px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mist)}
+.scroll-cue i{width:1px;height:46px;background:linear-gradient(var(--rose),transparent);animation:drip 2.2s var(--ease) infinite;transform-origin:top}
+@keyframes drip{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+
+/* ---------- marquee ---------- */
+.marquee{background:var(--night);color:var(--ivory);border-top:1px solid var(--line-d);overflow:hidden;padding-block:26px}
+.track{display:flex;width:max-content;animation:mq 46s linear infinite}
+.marquee:hover .track{animation-play-state:paused}
+.track span{display:inline-flex;align-items:center;gap:34px;padding-right:34px;font-size:clamp(22px,2.4vw,34px);font-weight:500;letter-spacing:-.02em;white-space:nowrap}
+.track span em.s{color:var(--rose-2)}
+.track span::after{content:"";width:8px;height:8px;background:var(--rose);transform:rotate(45deg)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- generic section ---------- */
+.sec{padding-block:130px;position:relative}
+.sec-head{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:28px;margin-bottom:70px;align-items:end}
+.sec-head .eyebrow{grid-column:1/-1;color:var(--rose)}
+.sec-head h2{grid-column:1/span 8;font-size:clamp(36px,4.6vw,68px);line-height:1.02;letter-spacing:-.03em}
+.sec-head h2 em.s{color:var(--rose)}
+.sec-head p{grid-column:9/span 4;color:var(--ink-2);font-size:16.5px}
+
+/* reveal */
+.rv{opacity:1;transform:none;transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.pre{opacity:0;transform:translateY(40px)}
+.rv.d1{transition-delay:.1s}.rv.d2{transition-delay:.2s}.rv.d3{transition-delay:.3s}
+
+/* ---------- pillars (sticky) ---------- */
+.pillars{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:28px}
+.pillars .stick{grid-column:1/span 5;position:sticky;top:120px;align-self:start}
+.pillars .stick h2{font-size:clamp(36px,4.4vw,64px);line-height:1.02;letter-spacing:-.03em;margin-top:20px}
+.pillars .stick h2 em.s{color:var(--rose)}
+.pillars .stick p{margin-top:24px;color:var(--ink-2);max-width:26em}
+.pillars .stick .eyebrow{color:var(--rose)}
+.plist{grid-column:7/span 6;display:grid;gap:20px}
+.pcard{background:#fff;border:1px solid var(--line);padding:38px 36px;position:relative;overflow:hidden;transition:transform .6s var(--ease),box-shadow .6s var(--ease)}
+.pcard:hover{transform:translateY(-6px);box-shadow:0 30px 60px -30px rgba(18,20,26,.25)}
+.pcard::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:100%;background:var(--rose);transform:scaleX(0);transform-origin:left;transition:transform .8s var(--ease)}
+.pcard:hover::after{transform:scaleX(1)}
+.pcard .k{font-family:var(--mono);font-size:12px;color:var(--rose);letter-spacing:.1em}
+.pcard h3{font-size:clamp(24px,2.2vw,30px);line-height:1.15;letter-spacing:-.02em;margin-top:14px}
+.pcard p{margin-top:12px;color:var(--ink-2)}
+
+/* ---------- stats ---------- */
+.stats{background:var(--ivory-2);border-block:1px solid var(--line)}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding-block:64px}
+.stat{padding:6px 28px;border-left:1px solid var(--line);min-width:0}
+.stat:first-child{border-left:0;padding-left:0}
+.stat .n{font-size:clamp(46px,5vw,76px);font-weight:500;letter-spacing:-.04em;line-height:1;font-variant-numeric:tabular-nums}
+.stat .n sup{font-size:.42em;color:var(--rose);vertical-align:top;margin-left:2px}
+.stat p{margin-top:12px;font-size:14.5px;color:var(--ink-2);max-width:18em}
+
+/* ---------- claims list ---------- */
+.claims{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.claims li{border-bottom:1px solid var(--line)}
+.claims a{position:relative;display:grid;grid-template-columns:70px 1fr 1.1fr 56px;gap:28px;align-items:center;padding:34px 0;text-decoration:none;isolation:isolate;transition:color .5s var(--ease),padding .5s var(--ease)}
+.claims a::before{content:"";position:absolute;inset:0 -28px;background:var(--night);transform:scaleY(0);transform-origin:bottom;transition:transform .55s var(--ease);z-index:-1}
+.claims a:hover{color:var(--ivory);padding-left:20px}
+.claims a:hover::before{transform:scaleY(1)}
+.claims .no{font-family:var(--mono);font-size:13px;color:var(--rose)}
+.claims .name{font-size:clamp(28px,3.2vw,46px);font-weight:500;letter-spacing:-.03em;line-height:1.02}
+.claims .desc{color:var(--ink-2);font-size:16px;transition:color .5s}
+.claims a:hover .desc{color:#C6C9D1}
+.claims .law{display:block;font-family:var(--mono);font-size:11.5px;color:var(--rose);margin-top:8px;letter-spacing:.04em}
+.claims .go{width:56px;height:56px;border-radius:50%;border:1px solid currentColor;display:grid;place-items:center;font-size:20px;transition:transform .5s var(--ease),background .5s,border-color .5s}
+.claims a:hover .go{transform:rotate(-45deg);background:var(--rose);border-color:var(--rose);color:#fff}
+
+/* ---------- showcase dark band ---------- */
+.dark{background:var(--night);color:var(--ivory);overflow:hidden}
+.dark .sec-head h2 em.s{color:var(--rose-2)}
+.dark .sec-head p{color:var(--mist)}
+.cases{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:26px;scrollbar-width:thin;scrollbar-color:var(--rose) transparent;cursor:grab;padding-left:max(28px,calc((100vw - 1280px)/2 + 28px));padding-right:28px}
+.cases.drag{cursor:grabbing;scroll-snap-type:none}
+.case{flex:0 0 min(440px,82vw);scroll-snap-align:start;background:var(--night-2);border:1px solid var(--line-d);padding:34px 32px;display:flex;flex-direction:column;min-height:400px;position:relative;transition:border-color .5s,transform .6s var(--ease)}
+.case:hover{border-color:rgba(194,74,98,.6);transform:translateY(-6px)}
+.case .tag{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11.5px;color:var(--mist);letter-spacing:.06em}
+.case .tag b{color:var(--rose-2);font-weight:500}
+.case h3{font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.18;margin-top:auto;padding-top:60px}
+.case h3 i{color:var(--rose-2)}
+.case p{margin-top:16px;color:#B9BDC6;font-size:15.5px}
+.case .bar{margin-top:28px;height:1px;background:var(--line-d);position:relative}
+.case .bar::after{content:"";position:absolute;left:0;top:0;height:1px;width:0;background:var(--rose);transition:width 1s var(--ease)}
+.case:hover .bar::after{width:100%}
+.cases-foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;margin-top:34px;color:var(--mist);font-size:14px}
+.arrows{display:flex;gap:10px}
+.arrows button{width:52px;height:52px;border-radius:50%;border:1px solid var(--line-d);background:none;color:var(--ivory);cursor:pointer;font-size:18px;transition:.4s}
+.arrows button:hover{background:var(--rose);border-color:var(--rose)}
+
+.quotes{margin-top:120px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:28px;align-items:end}
+.quotes .qwrap{grid-column:2/span 9;position:relative;min-height:260px}
+.q{position:absolute;inset:0;opacity:0;transform:translateY(20px);transition:opacity .9s var(--ease),transform .9s var(--ease);pointer-events:none}
+.q.on{opacity:1;transform:none;pointer-events:auto;position:relative}
+.q blockquote{margin:0;font-family:var(--serif);font-size:clamp(26px,3.4vw,46px);line-height:1.22;letter-spacing:-.01em}
+.q blockquote::before{content:"“";color:var(--rose);display:block;font-size:1.8em;line-height:.6;margin-bottom:10px}
+.q cite{display:block;margin-top:26px;font-style:normal;font-size:14px;letter-spacing:.06em;color:var(--mist)}
+.qdots{grid-column:11/span 2;display:flex;gap:8px;justify-content:flex-end;padding-bottom:12px}
+.qdots button{width:34px;height:3px;border:0;background:var(--line-d);cursor:pointer;padding:0;position:relative;overflow:hidden}
+.qdots button.on::after{content:"";position:absolute;inset:0;background:var(--rose);animation:fill 6s linear forwards}
+@keyframes fill{from{transform:translateX(-100%)}to{transform:none}}
+
+/* ---------- process ---------- */
+.process{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:28px}
+.process .rail{grid-column:1/span 4;position:sticky;top:120px;align-self:start}
+.process .rail h2{font-size:clamp(34px,4vw,58px);line-height:1.02;letter-spacing:-.03em;margin-top:20px}
+.process .rail h2 em.s{color:var(--rose)}
+.process .rail .eyebrow{color:var(--rose)}
+.steps{grid-column:6/span 7;list-style:none;margin:0;padding:0 0 0 70px;position:relative}
+.steps::before{content:"";position:absolute;left:22px;top:8px;bottom:8px;width:1px;background:var(--line)}
+.steps .prog{position:absolute;left:22px;top:8px;width:1px;background:var(--rose);height:0}
+.steps li{position:relative;padding-bottom:64px}
+.steps li:last-child{padding-bottom:0}
+.steps .dot{position:absolute;left:-70px;top:0;width:45px;height:45px;border-radius:50%;background:var(--ivory);border:1px solid var(--line);display:grid;place-items:center;font-family:var(--mono);font-size:13px;transition:.5s}
+.steps li.lit .dot{background:var(--rose);border-color:var(--rose);color:#fff}
+.steps h3{font-size:clamp(24px,2.4vw,32px);letter-spacing:-.02em;line-height:1.15}
+.steps p{margin-top:12px;color:var(--ink-2);max-width:32em}
+
+/* ---------- fees ---------- */
+.fees{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:28px;align-items:stretch}
+.fee-main{grid-column:1/span 7;background:var(--night);color:var(--ivory);padding:56px 52px;position:relative;overflow:hidden}
+.fee-main::after{content:"";position:absolute;right:-120px;top:-120px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(194,74,98,.35),transparent 70%)}
+.fee-main .eyebrow{color:var(--rose-2)}
+.fee-main h3{font-size:clamp(30px,3.2vw,44px);letter-spacing:-.03em;line-height:1.05;margin-top:22px;position:relative}
+.fee-main h3 em.s{color:var(--rose-2)}
+.fee-main p{margin-top:20px;color:#C6C9D1;max-width:30em;position:relative}
+.fee-main .btn{margin-top:34px}
+.fee-list{grid-column:8/span 5;display:grid;gap:14px}
+.fee-item{background:#fff;border:1px solid var(--line);padding:26px 26px;display:grid;grid-template-columns:40px 1fr;gap:16px;align-items:start;transition:border-color .4s}
+.fee-item:hover{border-color:var(--rose)}
+.fee-item svg{width:28px;height:28px;stroke:var(--rose);fill:none;stroke-width:1.4}
+.fee-item b{display:block;font-size:17px;font-weight:600}
+.fee-item span{display:block;color:var(--ink-2);font-size:14.5px;margin-top:4px}
+
+/* ---------- time limits ---------- */
+.limit{display:grid;grid-template-columns:auto 1fr;gap:56px;align-items:center;border:1px solid var(--ink);padding:48px 52px;background:#fff;position:relative}
+.limit::before{content:"";position:absolute;left:-1px;top:-1px;bottom:-1px;width:5px;background:var(--rose)}
+.clock{width:150px;height:150px;position:relative;flex:none}
+.clock svg{width:100%;height:100%;transform:rotate(-90deg)}
+.clock .t{position:absolute;inset:0;display:grid;place-items:center;text-align:center;line-height:1}
+.clock .t b{font-size:48px;font-weight:500;letter-spacing:-.04em}
+.clock .t small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);margin-top:6px}
+.limit .eyebrow{color:var(--rose)}
+.limit p{margin-top:14px;max-width:48em}
+.limit .links{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:20px;font-size:14.5px;font-weight:500}
+.limit .links a{text-decoration-color:var(--rose);text-underline-offset:5px}
+
+/* ---------- final CTA ---------- */
+.final{background:var(--night);color:var(--ivory);position:relative;overflow:hidden;isolation:isolate;padding-block:150px}
+.final::before{content:"";position:absolute;inset:-40%;z-index:-1;background:conic-gradient(from 0deg at 50% 50%,transparent 0deg,rgba(194,74,98,.22) 60deg,transparent 140deg,rgba(201,168,105,.10) 220deg,transparent 300deg);animation:turn 24s linear infinite}
+@keyframes turn{to{transform:rotate(360deg)}}
+.final .wrap{text-align:left}
+.final h2{font-size:clamp(46px,7.4vw,118px);line-height:.95;letter-spacing:-.04em;max-width:12ch}
+.final h2 em.s{color:var(--rose-2)}
+.final .row{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap;margin-top:56px;padding-top:34px;border-top:1px solid rgba(255,255,255,.12)}
+.final .contact{display:grid;gap:6px;color:#C6C9D1}
+.final .contact .tel{font-size:clamp(22px,2.4vw,32px);font-family:var(--sans);font-weight:500;letter-spacing:-.02em;opacity:1;color:var(--ivory)}
+
+/* ---------- footer ---------- */
+footer{background:#07080C;color:#A7ACB7;font-size:14.5px;padding-block:80px 40px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+.fgrid h4{margin:0 0 16px;color:var(--ivory);font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
+.fgrid ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.fgrid a{text-decoration:none;transition:color .3s}
+.fgrid a:hover{color:#fff}
+.fbrand{color:var(--ivory)}
+.fbrand p{color:#A7ACB7;margin-top:18px;max-width:26em}
+.reg{margin-top:56px;padding-top:26px;border-top:1px solid #1C202A;display:grid;grid-template-columns:2fr 1fr;gap:28px;font-size:13.5px;line-height:1.65}
+.reg .draft{font-style:italic;color:#7E8492;margin-top:8px}
+.reg .copy{text-align:right;color:#7E8492}
+
+/* ---------- enquiry modal ---------- */
+.modal{position:fixed;inset:0;z-index:150;background:rgba(7,8,12,.72);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.panel{width:min(760px,100%);max-height:100%;overflow:auto;background:var(--ivory);position:relative;animation:pop .6s var(--ease) both}
+@keyframes pop{from{opacity:0;transform:translateY(30px) scale(.98)}to{opacity:1;transform:none}}
+.panel .top{display:flex;justify-content:space-between;align-items:center;padding:22px 32px;border-bottom:1px solid var(--line)}
+.panel .top span{font-size:13px;color:var(--ink-2)}
+.panel .x{width:40px;height:40px;border:1px solid var(--line);background:none;cursor:pointer;font-size:18px;color:var(--ink)}
+.progress{height:3px;background:var(--line)}
+.progress i{display:block;height:100%;background:var(--rose);width:0;transition:width .6s var(--ease)}
+.qbody{padding:44px 32px 34px}
+.qstep{animation:fadeup .6s var(--ease) both}
+.qstep .eyebrow{color:var(--rose)}
+.qstep h3{font-size:clamp(26px,3vw,38px);letter-spacing:-.025em;line-height:1.1;margin-top:16px}
+.qstep .help{margin-top:10px;color:var(--ink-2);font-size:15px}
+.opts{display:grid;gap:10px;margin-top:28px}
+.opt{display:flex;justify-content:space-between;align-items:center;gap:16px;width:100%;text-align:left;padding:18px 22px;background:#fff;border:1px solid var(--line);font:500 16.5px var(--sans);color:var(--ink);cursor:pointer;transition:border-color .3s,transform .3s var(--ease),background .3s}
+.opt:hover{border-color:var(--ink);transform:translateX(4px)}
+.opt[aria-pressed="true"]{border-color:var(--rose);background:#FBF0F2}
+.opt .ar{color:var(--rose);opacity:0;transition:.3s}
+.opt:hover .ar,.opt[aria-pressed="true"] .ar{opacity:1}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px}
+.fields .full{grid-column:1/-1}
+.fields label{display:block;font-size:13px;font-weight:600;margin-bottom:6px}
+.fields input,.fields textarea{width:100%;padding:14px 16px;border:1px solid var(--line);background:#fff;font:16px var(--sans);color:var(--ink)}
+.fields input:focus,.fields textarea:focus{outline:2px solid var(--rose);outline-offset:0;border-color:transparent}
+.fields textarea{min-height:110px;resize:vertical}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--ink-2)}
+.qnav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:30px}
+.qnav .back{background:none;border:0;font:500 15px var(--sans);color:var(--ink-2);cursor:pointer;padding:10px 0}
+.qnav .note{font-size:13px;color:var(--ink-2)}
+.result .verdict{display:flex;gap:16px;align-items:flex-start}
+.result .tick{width:54px;height:54px;border-radius:50%;background:var(--rose);color:#fff;display:grid;place-items:center;font-size:24px;flex:none}
+.urgent{margin-top:22px;padding:16px 18px;background:#FBF0F2;border-left:3px solid var(--rose);font-size:15px}
+.result .limitbox{margin-top:22px;padding:18px 20px;border:1px solid var(--line);background:#fff;font-size:14.5px;color:var(--ink-2)}
+.result .limitbox a{color:var(--ink);text-underline-offset:4px;text-decoration-color:var(--rose)}
+.mail{margin-top:26px;border:1px dashed var(--ink-2);background:#fff}
+.mail .hd{padding:12px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;font-family:var(--mono);font-size:11.5px;color:var(--ink-2);flex-wrap:wrap}
+.mail .hd b{color:var(--rose);font-weight:500}
+.mail .bd{padding:16px;font-family:var(--mono);font-size:12.5px;line-height:1.75;white-space:pre-wrap;color:var(--ink);overflow-wrap:anywhere}
+.fit{display:inline-block;padding:3px 8px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-family:var(--mono)}
+.fit.good{background:#E6F2EA;color:#1F6B3A}.fit.review{background:#F4EEDF;color:#7A5A12}
+
+/* mobile drawer + bar */
+.drawer{position:fixed;inset:0;z-index:140;background:var(--night);color:var(--ivory);padding:calc(24px + env(safe-area-inset-top,0px)) max(24px,env(safe-area-inset-right,0px)) 30px max(24px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;overflow:auto}
+.drawer .top{display:flex;justify-content:space-between;align-items:center}
+.drawer ol{list-style:none;margin:48px 0 0;padding:0}
+.drawer li{overflow:hidden}
+.drawer li a{display:flex;gap:18px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line-d);text-decoration:none;font-size:34px;font-weight:500;letter-spacing:-.03em;animation:rise .7s var(--ease) both}
+.drawer li:nth-child(2) a{animation-delay:.05s}.drawer li:nth-child(3) a{animation-delay:.1s}.drawer li:nth-child(4) a{animation-delay:.15s}.drawer li:nth-child(5) a{animation-delay:.2s}
+.drawer li a small{font-family:var(--mono);font-size:12px;color:var(--rose-2)}
+.drawer .foot{margin-top:auto;padding-top:30px;color:var(--mist);font-size:14px}
+.mbar{display:none}
+
+@media (max-width:1060px){
+  .links .hide-md{display:none}
+  .hero-copy{grid-column:1/-1}
+  .file-wrap{grid-column:1/-1;max-width:520px;margin-top:30px}
+  .sec-head h2,.sec-head p{grid-column:1/-1}
+  .pillars .stick,.plist,.process .rail,.steps{grid-column:1/-1}
+  .pillars .stick,.process .rail{position:static}
+  .plist{margin-top:30px}
+  .steps{margin-top:40px}
+  .fee-main,.fee-list{grid-column:1/-1}
+  .claims a{grid-template-columns:50px 1fr 56px}.claims .desc{grid-column:2/3}
+  .quotes .qwrap,.qdots{grid-column:1/-1}.qdots{justify-content:flex-start}
+  .stats .wrap{grid-template-columns:1fr 1fr;row-gap:40px}.stat:nth-child(3){border-left:0;padding-left:0}
+}
+@media (max-width:760px){
+  body{font-size:16px}
+  .wrap{padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+  .links,.nav .btn,.nav .tel{display:none}
+  .burger{display:block}
+  .pv .wrap span{font-size:11.5px}
+  .hero{min-height:auto}
+  .hero .wrap{padding-block:130px 90px}
+  .hero-meta{gap:16px 26px}
+  .scroll-cue{display:none}
+  .sec{padding-block:84px}
+  .sec-head{margin-bottom:44px}
+  .pcard{padding:28px 24px}
+  .stats .wrap{padding-block:48px}
+  .stat{padding:0 14px}
+  .claims a{grid-template-columns:1fr auto;gap:10px 16px;padding:26px 0}
+  .claims .no{display:none}.claims .desc{grid-column:1/-1;grid-row:2}
+  .claims .go{width:44px;height:44px}
+  .claims a:hover{padding-left:0}
+  .claims a::before{inset:0 -18px}
+  .quotes{margin-top:80px}
+  .steps{padding-left:60px}.steps .dot{left:-60px;width:40px;height:40px}.steps::before,.steps .prog{left:20px}
+  .fee-main{padding:40px 26px}
+  .limit{grid-template-columns:1fr;gap:26px;padding:34px 24px}
+  .clock{width:120px;height:120px}
+  .final{padding-block:100px}
+  .fgrid{grid-template-columns:1fr 1fr}.fbrand{grid-column:1/-1}
+  .reg{grid-template-columns:1fr}.reg .copy{text-align:left}
+  .fields{grid-template-columns:1fr}
+  .qbody{padding:32px 20px 26px}.panel .top{padding:18px 20px}
+  footer{padding-bottom:120px}
+  .mbar{display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:90;background:rgba(11,13,18,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);padding:10px max(14px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(14px,env(safe-area-inset-left,0px));border-top:1px solid var(--line-d);transform:translateY(110%);transition:transform .5s var(--ease)}
+  .mbar.show{transform:none}
+  .mbar a,.mbar button{min-height:48px;display:grid;place-items:center;border:1px solid var(--line-d);background:none;color:var(--ivory);font:600 15px var(--sans);text-decoration:none}
+  .mbar button{background:var(--rose);border-color:var(--rose)}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .rv.pre{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+</style>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="pv" id="pv"><div class="wrap"><span><b>Design preview by Design Ally Ltd</b> · Homepage · Draft content subject to client approval</span><button type="button" id="pvx" aria-label="Hide preview notice">Hide ✕</button></div></div>
+
+<header class="nav with-pv" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="mark" aria-hidden="true">NEL</span><span><b>Nationwide Employment Lawyers</b><small>Employment claims for employees</small></span></a>
+    <nav class="links" aria-label="Main">
+      <a href="#approach">Approach</a>
+      <a href="#claims">Claims</a>
+      <a href="#experience">Experience</a>
+      <a href="#fees" class="hide-md">Fees</a>
+      <span class="tel hide-md">0333 242 3851</span>
+      <button class="btn sm" type="button" data-enq>Start an enquiry <span class="ar">→</span></button>
+    </nav>
+    <button class="burger" type="button" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="top"><a class="brand" href="#top"><span class="mark" aria-hidden="true">NEL</span></a><button class="burger" type="button" id="dclose" aria-label="Close menu" style="display:block"><span style="top:21px;transform:rotate(45deg)"></span><span style="top:21px;transform:rotate(-45deg)"></span></button></div>
+  <ol>
+    <li><a href="#approach"><small>01</small>Approach</a></li>
+    <li><a href="#claims"><small>02</small>Claims</a></li>
+    <li><a href="#experience"><small>03</small>Experience</a></li>
+    <li><a href="#process"><small>04</small>How it works</a></li>
+    <li><a href="#fees"><small>05</small>Fees</a></li>
+  </ol>
+  <div class="foot"><button class="btn" type="button" data-enq style="width:100%;justify-content:center">Start a private enquiry <span class="ar">→</span></button><p style="margin-top:18px">0333 242 3851 · enquiry@natemplaw.co.uk</p></div>
+</div>
+
+<main id="main">
+<section class="hero" id="top" aria-labelledby="h1">
+  <canvas id="ribbons" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow">Employment Tribunal advocacy · London &amp; nationwide</span>
+      <h1 id="h1"><span class="ln"><span>Your career is</span></span><span class="ln"><span>on the line.</span></span><span class="ln"><span><em class="s">We stand up for it.</em></span></span></h1>
+      <p class="rot">We represent <span class="word" id="word"><i>senior bankers</i></span> in whistleblowing, discrimination and dismissal claims, all the way to the Employment Tribunal.</p>
+      <div class="hero-cta">
+        <button class="btn" type="button" data-enq>Start a private enquiry <span class="ar">→</span></button>
+        <a class="btn ghost" href="#claims">See the claims we handle</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>Employees only</b>We never act for employers</div>
+        <div><b>Representation</b>Not just advice</div>
+        <div><b>In confidence</b>0333 242 3851</div>
+      </div>
+    </div>
+    <div class="file-wrap">
+      <div class="file" id="file">
+        <span class="tab">Brief · NEL</span>
+        <h4>Instructions to advocate</h4>
+        <p class="title">Complex, high-value claims for professionals</p>
+        <dl>
+          <div><dt>ACTS FOR</dt><dd>Employees only</dd></div>
+          <div><dt>SPECIALISM</dt><dd>Whistleblowing · Discrimination · Harassment · Dismissal</dd></div>
+          <div><dt>FORUM</dt><dd>Employment Tribunal, from ACAS to final hearing</dd></div>
+          <div><dt>HEARINGS</dt><dd>From 1-day hearings to 30-day trials</dd></div>
+        </dl>
+        <div class="sector" id="chips"></div>
+        <div class="stamp" aria-hidden="true">EMPLOYEES<br>ONLY<br>· EST. ·</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true">Scroll<i></i></div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="track"></div></div>
+
+<section class="sec" id="approach" aria-labelledby="h-app">
+  <div class="wrap">
+    <div class="pillars">
+      <div class="stick rv">
+        <span class="eyebrow">Our approach</span>
+        <h2 id="h-app">Advice is easy to find. <em class="s">Advocacy is not.</em></h2>
+        <p>Most firms advise, then hand you to someone else for the hearing. With us, the person who builds your case is the person who presents it.</p>
+      </div>
+      <div class="plist">
+        <article class="pcard rv"><span class="k">REPRESENTATION</span><h3>Our Senior Advocate presents your case himself.</h3><p>From the first preliminary hearing to the final judgment, you work with one advocate who knows every page of your file.</p></article>
+        <article class="pcard rv d1"><span class="k">COMPLEXITY</span><h3>Built for complex, high-value claims.</h3><p>Whistleblowing and discrimination cases that run for days or weeks, against employers with deep pockets and large legal teams.</p></article>
+        <article class="pcard rv d2"><span class="k">DISCRETION</span><h3>Confidential from the first call.</h3><p>Many of our clients work in regulated or sensitive roles. Discretion shapes how we work, how we contact you and what we put in writing.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats" aria-label="At a glance">
+  <div class="wrap">
+    <div class="stat rv"><div class="n"><span data-count="20">0</span><sup>+</sup></div><p>Years representing clients at the Employment Tribunal</p></div>
+    <div class="stat rv d1"><div class="n"><span data-count="30">0</span><sup>days</sup></div><p>The longest hearings we prepare for: complex discrimination and whistleblowing trials</p></div>
+    <div class="stat rv d2"><div class="n"><span data-count="5">0</span></div><p>Specialist areas of employment law, handled in depth</p></div>
+    <div class="stat rv d3"><div class="n"><span data-count="1">0</span></div><p>Advocate from first review to final hearing</p></div>
+  </div>
+</section>
+
+<section class="sec" id="claims" aria-labelledby="h-claims">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">Claims we handle</span>
+      <h2 id="h-claims">Five areas of law, <em class="s">handled in depth.</em></h2>
+      <p>We focus narrowly so that we can go deep. If your claim involves more than one of these, as many do, we handle them together.</p>
+    </div>
+    <ul class="claims">
+      <li class="rv"><a href="#" data-enq-topic="Whistleblowing"><span class="no">/01</span><span class="name">Whistleblowing</span><span class="desc">Reprisals after raising concerns about wrongdoing, fraud, safety or regulatory breaches.<span class="law">EMPLOYMENT RIGHTS ACT 1996 · PART IVA</span></span><span class="go" aria-hidden="true">→</span></a></li>
+      <li class="rv"><a href="#" data-enq-topic="Discrimination"><span class="no">/02</span><span class="name">Discrimination</span><span class="desc">Sex, race and disability discrimination at work, including in pay, promotion and dismissal.<span class="law">EQUALITY ACT 2010</span></span><span class="go" aria-hidden="true">→</span></a></li>
+      <li class="rv"><a href="#" data-enq-topic="Harassment"><span class="no">/03</span><span class="name">Sexual &amp; racial harassment</span><span class="desc">Unwanted conduct that violates your dignity or creates a hostile working environment.<span class="law">EQUALITY ACT 2010 · S.26</span></span><span class="go" aria-hidden="true">→</span></a></li>
+      <li class="rv"><a href="#" data-enq-topic="Dismissal"><span class="no">/04</span><span class="name">Unfair dismissal</span><span class="desc">Dismissals connected with whistleblowing or discrimination, including constructive dismissal.<span class="law">EMPLOYMENT RIGHTS ACT 1996 · PART X</span></span><span class="go" aria-hidden="true">→</span></a></li>
+      <li class="rv"><a href="#" data-enq-topic="Bullying and stress"><span class="no">/05</span><span class="name">Stress &amp; harassment</span><span class="desc">Bullying and sustained pressure that has damaged your health or your career.<span class="law">LINKED TO THE CLAIMS ABOVE</span></span><span class="go" aria-hidden="true">→</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec dark" id="experience" aria-labelledby="h-exp">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow" style="color:var(--rose-2)">Experience</span>
+      <h2 id="h-exp">Cases against <em class="s">the country's largest employers.</em></h2>
+      <p>Drag or use the arrows to browse. Matters are described in general terms to protect client confidentiality.</p>
+    </div>
+  </div>
+  <div class="cases" id="cases" tabindex="0" aria-label="Selected matters">
+    <article class="case"><div class="tag"><b>WHISTLEBLOWING</b><span>PROFESSIONAL SERVICES</span></div><h3>Senior professional <i>v</i> Big Four accountancy firm</h3><p>Several whistleblowing claims brought against one of the world's largest professional services firms.</p><div class="bar"></div></article>
+    <article class="case"><div class="tag"><b>WHISTLEBLOWING</b><span>NHS</span></div><h3>NHS consultant <i>v</i> NHS employer</h3><p>A high-profile whistleblowing case involving patient-safety concerns raised by a senior doctor.</p><div class="bar"></div></article>
+    <article class="case"><div class="tag"><b>WHISTLEBLOWING</b><span>MULTINATIONAL</span></div><h3>Senior manager <i>v</i> multinational group</h3><p>Concerns raised about a fraud of several hundred million pounds, followed by detriment and dismissal.</p><div class="bar"></div></article>
+    <article class="case"><div class="tag"><b>DISCRIMINATION</b><span>MEDIA</span></div><h3>Broadcaster <i>v</i> national broadcaster</h3><p>An age discrimination dispute that attracted national media attention.</p><div class="bar"></div></article>
+    <article class="case"><div class="tag"><b>DISCRIMINATION</b><span>FINANCIAL SERVICES</span></div><h3>Executive <i>v</i> financial institution</h3><p>Sex discrimination in pay and promotion at senior level.</p><div class="bar"></div></article>
+  </div>
+  <div class="wrap">
+    <div class="cases-foot"><span>[Matters shown for design purposes. Final selection and wording to be approved by Damian McCarthy.]</span><div class="arrows"><button type="button" id="prev" aria-label="Previous matter">←</button><button type="button" id="next" aria-label="Next matter">→</button></div></div>
+    <div class="quotes">
+      <div class="qwrap" id="qwrap" aria-live="polite"></div>
+      <div class="qdots" id="qdots"></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="process" aria-labelledby="h-proc">
+  <div class="wrap">
+    <div class="process">
+      <div class="rail rv">
+        <span class="eyebrow">How it works</span>
+        <h2 id="h-proc">From first call to final hearing, <em class="s">with one advocate.</em></h2>
+      </div>
+      <ol class="steps" id="steps">
+        <i class="prog" id="prog"></i>
+        <li><span class="dot">1</span><h3>Tell us briefly what happened</h3><p>A short, private enquiry online, or a call. It takes about a minute, and nothing is shared with your employer.</p></li>
+        <li><span class="dot">2</span><h3>Initial review</h3><p>We assess your claim, its likely value and, most importantly, your time limits.</p></li>
+        <li><span class="dot">3</span><h3>A clear plan and fee agreement</h3><p>Agreed in writing before any work starts, including how legal expenses insurance can help.</p></li>
+        <li><span class="dot">4</span><h3>Representation</h3><p>From ACAS early conciliation through negotiation to settlement or a full Tribunal hearing.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="fees" aria-labelledby="h-fees" style="padding-top:0">
+  <div class="wrap">
+    <div class="fees">
+      <div class="fee-main rv">
+        <span class="eyebrow">Fees &amp; insurance</span>
+        <h3 id="h-fees">You may already be <em class="s">insured for this.</em></h3>
+        <p>Many professionals have legal expenses insurance through a home or bank policy without realising it. We will help you check your cover and work directly with your insurer.</p>
+        <button class="btn" type="button" data-enq>Check if we can help <span class="ar">→</span></button>
+      </div>
+      <div class="fee-list">
+        <div class="fee-item rv d1"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M7 3h10l5 5v17H7z"/><path d="M17 3v5h5M10 14h9M10 18h9M10 22h6"/></svg><div><b>Agreed in writing</b><span>Your fee agreement is set out before any work starts.</span></div></div>
+        <div class="fee-item rv d2"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M14 3l9 4v7c0 6-4 9-9 11-5-2-9-5-9-11V7z"/><path d="M10 14l3 3 5-6"/></svg><div><b>Insurance welcomed</b><span>We work with legal expenses insurers every week.</span></div></div>
+        <div class="fee-item rv d3"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M4 22h20M7 22V12M12 22V7M17 22V14M22 22V9"/></svg><div><b>Clear at every stage</b><span>An estimate for each stage, so there are no surprises.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-lim" style="padding-top:0">
+  <div class="wrap">
+    <div class="limit rv">
+      <div class="clock" aria-hidden="true">
+        <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="54" stroke="#D9D5CB" stroke-width="4" fill="none"/><circle id="arc" cx="60" cy="60" r="54" stroke="#C24A62" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="339.3" stroke-dashoffset="339.3" style="transition:stroke-dashoffset 2s cubic-bezier(.2,.7,.1,1)"/></svg>
+        <div class="t"><div><b>3</b><small>months<br>less a day</small></div></div>
+      </div>
+      <div>
+        <span class="eyebrow" id="h-lim">Important: time limits</span>
+        <p>Most Employment Tribunal claims must be started within three months less one day of the act complained about or the date of dismissal. Before you can file a claim you must notify ACAS, the free government conciliation service; the clock pauses while you are in early conciliation. It is your responsibility to make sure your claim is filed on time, whether or not we act for you.</p>
+        <div class="links"><a href="https://www.acas.org.uk/notify/start" target="_blank" rel="noopener">Notify ACAS ↗</a><a href="https://www.acas.org.uk/early-conciliation" target="_blank" rel="noopener">How early conciliation works ↗</a><a href="https://www.citizensadvice.org.uk/work/problems-at-work/using-early-conciliation/" target="_blank" rel="noopener">Citizens Advice ↗</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final" aria-labelledby="h-final">
+  <div class="wrap">
+    <h2 class="rv" id="h-final">Tell us what happened. <em class="s">In confidence.</em></h2>
+    <div class="row rv d1">
+      <div class="contact"><span>Speak to us directly</span><span class="tel">0333 242 3851</span><span>enquiry@natemplaw.co.uk</span></div>
+      <button class="btn" type="button" data-enq>Start a private enquiry <span class="ar">→</span></button>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fbrand"><a class="brand" href="#top"><span class="mark" aria-hidden="true">NEL</span><span><b>Nationwide Employment Lawyers</b><small>Employment claims for employees</small></span></a><p>Representing professionals in whistleblowing, discrimination and dismissal claims. Central London, meetings by appointment, clients across England and Wales.</p></div>
+      <div><h4>Claims</h4><ul><li><a href="#claims">Whistleblowing</a></li><li><a href="#claims">Discrimination</a></li><li><a href="#claims">Harassment</a></li><li><a href="#claims">Unfair dismissal</a></li><li><a href="#claims">Stress &amp; harassment</a></li></ul></div>
+      <div><h4>For professionals in</h4><ul id="fsec"></ul></div>
+      <div><h4>Contact</h4><ul><li>0333 242 3851</li><li>enquiry@natemplaw.co.uk</li><li><a href="#top">Damian McCarthy, Senior Advocate ↗</a></li></ul></div>
+    </div>
+    <div class="reg">
+      <div><p>Nationwide Employment Lawyers Ltd is authorised and regulated by the Financial Conduct Authority (firm reference number 838365) for claims management activity. Nationwide Employment Lawyers Ltd is a claims management company and is not a firm of solicitors. You do not need to use a claims management company to bring an employment claim. Telephone calls are recorded as required by our regulator.</p><p class="draft">[Regulatory wording shown for design purposes. Final text to be approved by Nationwide Employment Lawyers Ltd.]</p></div>
+      <div class="copy">© 2026 Nationwide Employment Lawyers Ltd<br>Fees · Complaints · Privacy · Cookies · Terms</div>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar" id="mbar"><a href="tel:03332423851">Call</a><a href="mailto:enquiry@natemplaw.co.uk">Email</a><button type="button" data-enq>Start an enquiry</button></div>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="qtitle">
+  <div class="panel">
+    <div class="top"><span>Private enquiry · about a minute</span><button class="x" type="button" id="mx" aria-label="Close enquiry">✕</button></div>
+    <div class="progress"><i id="pbar"></i></div>
+    <div class="qbody" id="qbody"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+var $=function(s,c){return (c||document).querySelector(s)},$$=function(s,c){return [].slice.call((c||document).querySelectorAll(s))};
+var SECT=["Banking & finance","Big Four & audit","Civil service & Parliament","NHS & medicine","Regulators & professional bodies"];
+
+/* preview bar */
+$('#pvx').addEventListener('click',function(){$('#pv').hidden=true;$('#nav').classList.remove('with-pv')});
+
+/* nav state */
+var nav=$('#nav'),hero=$('.hero'),mbar=$('#mbar');
+function navState(){var y=window.scrollY,h=hero.offsetHeight;nav.classList.toggle('solid',y>40);nav.classList.toggle('with-pv',y<=40&&!$('#pv').hidden);
+  var lightZone=false;$$('.sec:not(.dark),.stats').forEach(function(s){var r=s.getBoundingClientRect();if(r.top<70&&r.bottom>70)lightZone=true});nav.classList.toggle('light',lightZone&&y>40);
+  mbar.classList.toggle('show',y>h*.6)}
+window.addEventListener('scroll',navState,{passive:true});navState();
+
+/* drawer */
+var dr=$('#drawer'),bg=$('#burger');
+bg.addEventListener('click',function(){dr.hidden=false;bg.setAttribute('aria-expanded','true');$('#dclose').focus()});
+function shut(){dr.hidden=true;bg.setAttribute('aria-expanded','false')}
+$('#dclose').addEventListener('click',shut);$$('#drawer a').forEach(function(a){a.addEventListener('click',shut)});
+
+/* rotating word */
+var words=["senior bankers","NHS doctors","Big Four auditors","civil servants","Parliamentary staff","regulator employees"];
+var wEl=$('#word');wEl.innerHTML='<i>'+words.reduce(function(a,b){return b.length>a.length?b:a})+'</i>'+words.map(function(w,i){return '<span'+(i?'':' class="on"')+'>'+w+'</span>'}).join('');
+var wi=0;if(!reduce)setInterval(function(){var sp=$$('span',wEl);sp[wi].className='out';wi=(wi+1)%sp.length;sp[wi].className='on';setTimeout(function(){sp.forEach(function(s,i){if(i!==wi)s.className=''})},650)},2600);
+
+/* chips on file card */
+var chips=$('#chips');SECT.forEach(function(s,i){var c=document.createElement('span');c.className='chip'+(i?'':' on');c.textContent=s;chips.appendChild(c)});
+var ci=0;if(!reduce)setInterval(function(){var cs=$$('.chip',chips);cs[ci].classList.remove('on');ci=(ci+1)%cs.length;cs[ci].classList.add('on')},1800);
+
+/* tilt */
+var file=$('#file');
+if(!reduce&&window.matchMedia('(pointer:fine)').matches){hero.addEventListener('mousemove',function(e){var r=file.getBoundingClientRect(),x=(e.clientX-(r.left+r.width/2))/r.width,y=(e.clientY-(r.top+r.height/2))/r.height;file.style.transform='rotateY('+(x*10)+'deg) rotateX('+(-y*8)+'deg)'});hero.addEventListener('mouseleave',function(){file.style.transform=''})}
+
+/* ribbon canvas */
+var cv=$('#ribbons'),cx=cv.getContext('2d'),W,H,DPR=Math.min(window.devicePixelRatio||1,2),mx=.7,my=.4,t=0;
+function size(){W=cv.offsetWidth;H=cv.offsetHeight;cv.width=W*DPR;cv.height=H*DPR;cx.setTransform(DPR,0,0,DPR,0,0)}
+size();window.addEventListener('resize',size);
+hero.addEventListener('mousemove',function(e){var r=hero.getBoundingClientRect();mx=(e.clientX-r.left)/r.width;my=(e.clientY-r.top)/r.height});
+var lines=window.innerWidth<760?18:34;
+function draw(){cx.clearRect(0,0,W,H);
+  for(var i=0;i<lines;i++){var p=i/lines;cx.beginPath();
+    for(var x=-20;x<=W+20;x+=18){var nx=x/W;
+      var y=H*(.18+p*.7)+Math.sin(nx*3.2+t*.6+p*5)*40*(1-p*.3)+Math.sin(nx*7+t*.9-p*3)*14+(my-.5)*80*Math.sin(nx*3.14)*(p-.5)+Math.cos(nx*2-(mx-.5)*2+t*.3)*30*p;
+      x<0?cx.moveTo(x,y):cx.lineTo(x,y)}
+    var rose=i%7===0;cx.strokeStyle=rose?'rgba(226,125,145,'+(.32+.25*Math.sin(t+i))+')':'rgba(243,241,236,'+(.035+.05*p)+')';cx.lineWidth=rose?1.2:.8;cx.stroke()}
+  t+=.006;if(!reduce)requestAnimationFrame(draw)}
+draw();
+
+/* marquee */
+var items=["Whistleblowing","<em class='s'>Discrimination</em>","Senior bankers","Sexual harassment","<em class='s'>NHS doctors</em>","Unfair dismissal","Big Four auditors","<em class='s'>Racial harassment</em>","Civil servants","Constructive dismissal","<em class='s'>Regulators</em>"];
+var html=items.map(function(s){return '<span>'+s+'</span>'}).join('');$('#track').innerHTML=html+html;
+
+/* reveal */
+if('IntersectionObserver' in window&&!reduce){var vh=window.innerHeight;var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+  $$('.rv').forEach(function(el){if(el.getBoundingClientRect().top>vh*.92){el.classList.add('pre');io.observe(el)}})}
+
+/* count up */
+function countAll(){$$('[data-count]').forEach(function(el){var to=+el.dataset.count;if(reduce){el.textContent=to;return}var s=null;function f(ts){if(!s)s=ts;var k=Math.min((ts-s)/1600,1);el.textContent=Math.round(to*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(f)}requestAnimationFrame(f)})}
+var st=$('.stats');if('IntersectionObserver' in window){var so=new IntersectionObserver(function(es){if(es[0].isIntersecting){countAll();so.disconnect()}},{threshold:.4});so.observe(st)}else countAll();
+if(st.getBoundingClientRect().top<window.innerHeight*.8)countAll();
+
+/* cases drag + arrows */
+var cs=$('#cases'),down=false,sx,sl;
+cs.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;down=true;sx=e.clientX;sl=cs.scrollLeft;cs.classList.add('drag')});
+window.addEventListener('pointerup',function(){down=false;cs.classList.remove('drag')});
+cs.addEventListener('pointermove',function(e){if(!down)return;cs.scrollLeft=sl-(e.clientX-sx)});
+function step(d){var c=$('.case',cs);cs.scrollBy({left:d*(c.offsetWidth+22),behavior:reduce?'auto':'smooth'})}
+$('#prev').addEventListener('click',function(){step(-1)});$('#next').addEventListener('click',function(){step(1)});
+
+/* quotes */
+var Q=[["Very strong tactical acumen, coupled with a skilful and no-nonsense style and a highly client-focused approach.","Partner, national employment law firm"],["His ability to steer very complex cases and difficult witnesses in the right direction, whilst keeping cool.","Senior Partner, law firm"],["A skilled negotiator who understands that cases are often not just about the legal points.","Solicitor, City law firm"],["They were very clear about pricing and gave realistic views on the possible outcomes of the case.","Former client"]];
+var qw=$('#qwrap'),qd=$('#qdots'),qi=0,qt;
+Q.forEach(function(q,i){var d=document.createElement('div');d.className='q'+(i?'':' on');d.innerHTML='<blockquote>'+q[0]+'</blockquote><cite>'+q[1]+'</cite>';qw.appendChild(d);var b=document.createElement('button');b.type='button';b.setAttribute('aria-label','Show testimonial '+(i+1));if(!i)b.className='on';b.addEventListener('click',function(){showQ(i)});qd.appendChild(b)});
+function showQ(i){var qs=$$('.q',qw),bs=$$('button',qd);qs[qi].classList.remove('on');bs[qi].classList.remove('on');qi=i;qs[qi].classList.add('on');void bs[qi].offsetWidth;bs[qi].classList.add('on');clearInterval(qt);if(!reduce)qt=setInterval(function(){showQ((qi+1)%Q.length)},6000)}
+if(!reduce)qt=setInterval(function(){showQ((qi+1)%Q.length)},6000);
+
+/* process progress */
+var stepsEl=$('#steps'),prog=$('#prog');
+function proc(){var r=stepsEl.getBoundingClientRect(),vh=window.innerHeight,k=Math.max(0,Math.min(1,(vh*.6-r.top)/(r.height)));prog.style.height=(k*(r.height-16))+'px';
+  $$('li',stepsEl).forEach(function(li){li.classList.toggle('lit',li.getBoundingClientRect().top<vh*.6)})}
+window.addEventListener('scroll',proc,{passive:true});proc();
+
+/* clock arc */
+var arc=$('#arc');if('IntersectionObserver' in window){var ao=new IntersectionObserver(function(es){if(es[0].isIntersecting){arc.style.strokeDashoffset=339.3*.25;ao.disconnect()}},{threshold:.5});ao.observe(arc)}else arc.style.strokeDashoffset=339.3*.25;
+
+/* footer sectors */
+SECT.forEach(function(s){var li=document.createElement('li');li.innerHTML='<a href="#experience">'+s+'</a>';$('#fsec').appendChild(li)});
+
+/* magnetic buttons */
+if(!reduce&&window.matchMedia('(pointer:fine)').matches){$$('.btn').forEach(function(b){b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate('+((e.clientX-r.left-r.width/2)*.15)+'px,'+((e.clientY-r.top-r.height/2)*.25)+'px)'});b.addEventListener('mouseleave',function(){b.style.transform=''})})}
+
+/* ---------------- enquiry qualifier ---------------- */
+var modal=$('#modal'),qb=$('#qbody'),pbar=$('#pbar'),A={},cur=0,lastFocus;
+var STEPS=[
+ {k:'situation',t:'What best describes your situation?',o:["I've been dismissed","I've resigned, or I'm thinking of resigning","I'm still employed but facing a serious problem","I've been offered a settlement"]},
+ {k:'topic',t:'What is it mainly about?',o:["Whistleblowing","Discrimination","Harassment","Dismissal","Bullying and stress","Not sure"]},
+ {k:'sector',t:'Which sector do you work in?',o:SECT.concat(["Another professional role"])},
+ {k:'earnings',t:'Roughly what are your annual earnings, including bonus?',h:'This helps us understand the likely value of your claim. It stays confidential.',o:["Under £50,000","£50,000 – £70,000","£70,000 – £100,000","£100,000 – £150,000","Over £150,000","Prefer not to say"]},
+ {k:'insurance',t:'Do you have legal expenses insurance?',h:'It is often included in home insurance or bank account packages.',o:["Yes","No","Not sure, I'd like help checking"]},
+ {k:'when',t:'When did the main event, or your dismissal, happen?',h:'Time limits for most claims run from this date.',o:["In the last month","1 to 2 months ago","2 to 3 months ago","More than 3 months ago"]},
+ {k:'details',t:'How should we contact you?',form:true}
+];
+function open(topic){lastFocus=document.activeElement;A={};cur=0;if(topic){A.topic=topic}modal.hidden=false;document.body.style.overflow='hidden';render();setTimeout(function(){var f=$('.opt,input',qb);f&&f.focus()},50)}
+function close(){modal.hidden=true;document.body.style.overflow='';lastFocus&&lastFocus.focus()}
+$$('[data-enq]').forEach(function(b){b.addEventListener('click',function(e){e.preventDefault();shut();open()})});
+$$('[data-enq-topic]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();open(a.dataset.enqTopic)})});
+$('#mx').addEventListener('click',close);
+modal.addEventListener('click',function(e){if(e.target===modal)close()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){if(!modal.hidden)close();else if(!dr.hidden)shut()}});
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function render(){
+  if(cur===1&&A.topic&&A._pre!==false){}
+  pbar.style.width=((cur)/(STEPS.length))*100+'%';
+  var s=STEPS[cur];
+  if(!s){return result()}
+  var h='<div class="qstep"><span class="eyebrow">Question '+(cur+1)+' of '+STEPS.length+'</span><h3 id="qtitle">'+s.t+'</h3>'+(s.h?'<p class="help">'+s.h+'</p>':'');
+  if(s.form){h+='<form id="qf" novalidate><div class="fields"><div><label for="fn">Full name</label><input id="fn" name="name" autocomplete="name" required></div><div><label for="fe">Email</label><input id="fe" name="email" type="email" autocomplete="email" required></div><div><label for="fp">Phone</label><input id="fp" name="phone" type="tel" autocomplete="tel"></div><div><label for="ft">Best time to call</label><input id="ft" name="time" placeholder="e.g. weekday evenings"></div><div class="full"><label for="fs">Briefly, what has happened? <span style="font-weight:400;color:var(--ink-2)">(optional)</span></label><textarea id="fs" name="summary" maxlength="600"></textarea></div><label class="consent full" for="fc"><input id="fc" type="checkbox" required> <span>I agree to my information being used to respond to my enquiry, in line with the Privacy notice.</span></label></div><p id="ferr" class="help" style="color:var(--rose)" hidden>Please add your name, a valid email and tick the consent box.</p>'
+    +'<div class="qnav"><button type="button" class="back" id="qback">← Back</button><button class="btn" type="submit">Send enquiry <span class="ar">→</span></button></div></form>';}
+  else{h+='<div class="opts">'+s.o.map(function(o){return '<button type="button" class="opt" aria-pressed="'+(A[s.k]===o)+'">'+o+'<span class="ar">→</span></button>'}).join('')+'</div><div class="qnav">'+(cur?'<button type="button" class="back" id="qback">← Back</button>':'<span class="note">Private and confidential.</span>')+'<span class="note">Nothing is shared with your employer.</span></div>';}
+  h+='</div>';qb.innerHTML=h;
+  $$('.opt',qb).forEach(function(b,i){b.addEventListener('click',function(){A[s.k]=s.o[i];$$('.opt',qb).forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');setTimeout(function(){cur++;if(cur===1&&A.topic&&STEPS[1].o.indexOf(A.topic)>-1&&A._skip!==1){A._skip=1;cur=2}render();var f=$('.opt,input',qb);f&&f.focus()},220)})});
+  var bk=$('#qback');bk&&bk.addEventListener('click',function(){cur--;render()});
+  var f=$('#qf');f&&f.addEventListener('submit',function(e){e.preventDefault();var n=$('#fn').value.trim(),em=$('#fe').value.trim(),ok=n&&/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)&&$('#fc').checked;if(!ok){$('#ferr').hidden=false;return}A.name=n;A.email=em;A.phone=$('#fp').value.trim();A.time=$('#ft').value.trim();A.summary=$('#fs').value.trim();cur++;render()});
+}
+function result(){
+  pbar.style.width='100%';
+  var hi=["£70,000 – £100,000","£100,000 – £150,000","Over £150,000"].indexOf(A.earnings)>-1,mid=A.earnings==="£50,000 – £70,000";
+  var ins=A.insurance==="Yes"||A.insurance==="Not sure, I'd like help checking";
+  var core=A.topic==="Whistleblowing"||A.topic==="Discrimination";
+  var good=hi||ins||(core&&mid);
+  var urgent=A.when==="2 to 3 months ago"||A.when==="More than 3 months ago";
+  var h='<div class="qstep result">';
+  if(urgent)h+='<div class="urgent"><b>Your time limit may be close, or may have passed.</b> Notify ACAS now and call us today on 0333 242 3851.</div>';
+  if(good)h+='<div class="verdict" style="margin-top:'+(urgent?'26px':'0')+'"><span class="tick">✓</span><div><h3 id="qtitle" style="margin:0">Thank you, '+esc(A.name.split(' ')[0])+'. Your enquiry is with us.</h3><p class="help">We aim to respond within one working day. If your matter is urgent, please call 0333 242 3851.</p></div></div>';
+  else h+='<h3 id="qtitle" style="margin-top:'+(urgent?'26px':'0')+'">Thank you for telling us about your situation.</h3><p class="help">Based on what you have told us, we may not be the right fit for your matter, but we will review your enquiry and contact you if we can help. In the meantime, <a href="https://www.acas.org.uk/" target="_blank" rel="noopener">ACAS</a> and <a href="https://www.citizensadvice.org.uk/work/" target="_blank" rel="noopener">Citizens Advice</a> offer free guidance.</p>';
+  h+='<div class="limitbox"><b style="color:var(--ink)">Time limits.</b> Most claims must be started within three months less one day, and you must notify ACAS first. It is your responsibility to file on time, whether or not we act for you. <a href="https://www.acas.org.uk/notify/start" target="_blank" rel="noopener">Notify ACAS ↗</a></div>';
+  var body='Situation:   '+(A.situation||'–')+'\nTopic:       '+(A.topic||'–')+'\nSector:      '+(A.sector||'–')+'\nEarnings:    '+(A.earnings||'–')+'\nInsurance:   '+(A.insurance||'–')+'\nKey date:    '+(A.when||'–')+(urgent?'  ⚠ time limit risk':'')+'\n\nName:        '+A.name+'\nEmail:       '+A.email+'\nPhone:       '+(A.phone||'–')+'\nBest time:   '+(A.time||'–')+'\n\nSummary:\n'+(A.summary||'(none given)');
+  h+='<div class="mail"><div class="hd"><span><b>DEMO ONLY</b> · What Damian receives</span><span class="fit '+(good?'good':'review')+'">'+(good?'Good fit':'Review')+'</span></div><div class="hd" style="color:var(--ink)">Subject: New enquiry – '+esc(A.topic||'General')+' – '+esc(A.sector||'')+' – '+esc(A.earnings||'')+'</div><div class="bd">'+esc(body)+'</div></div>';
+  h+='<div class="qnav"><button type="button" class="back" id="again">Start again</button><button type="button" class="btn" id="done">Close <span class="ar">→</span></button></div></div>';
+  qb.innerHTML=h;$('#again').addEventListener('click',function(){A={};cur=0;render()});$('#done').addEventListener('click',close);$('#done').focus();
+}
+})();
+</script>
+
+</body></html>
